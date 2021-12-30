@@ -1,0 +1,25 @@
+@media screen and (max-width:394px) {
+    .timeline::before {
+        left: 31px;
+    }
+
+    .container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .container::after {
+        left: 17px;
+    }
+
+    .right {
+        left: 0;
+    }
+
+    .left::before, .right::before {
+        left: 60px;
+        clip-path: polygon(50% 0, 50% 100%, 0 50%);
+    }
+
+}
